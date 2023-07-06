@@ -1,0 +1,25 @@
+.navbar-menu {
+    list-style-type: none;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  
+  .navbar-menu li {
+    display: inline;
+  }
+  
+  .navbar-menu li a {
+    color: orange;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid orange;
+  }
+  
+  .navbar-menu li a:hover {
+    background-color: orange;
+    color: black;
+  }
+  
+  
