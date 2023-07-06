@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import './style.css'
+import { Link } from "react-router-dom";
 
 
 
@@ -52,7 +53,7 @@ const Login = () =>{
             />
             <br/>
             <br/>
-            <button type="submit">Login</button>
+                <Link to={`/product/`}><button type="submit">Login</button></Link>
 
            </form>
 
